@@ -1,4 +1,6 @@
 {
+  "name": "react-native-payments",
+  "version": "0.7.0",
   "scripts": {
     "precommit": "lint-staged"
   },
@@ -6,6 +8,12 @@
     "lerna": "^2.0.0",
     "lint-staged": "^4.0.0",
     "prettier": "^1.4.4"
+  },
+  "main": "packages/react-native-payments/index.js",
+  "dependencies": {
+    "es6-error": "^4.0.2",
+    "uuid": "^3.1.0",
+    "validator": "^7.0.0"
   },
   "lint-staged": {
     "*.js": [
